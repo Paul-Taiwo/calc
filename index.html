@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Calculator</title>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta name="author" content="Paul Taiwo">
+
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<p id="demo"></p>
+<div id="wrapper">
+	<div class="container-fluid">
+		<div class="row">
+			<div style="padding: 0" class="col-xs-12">
+				<div class="disPlay">
+					<input type="text" id="input" placeholder="0" readonly>
+					<input type="text" id="answer" placeholder="" readonly>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-soot" value="">A/C</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-soot" value="+/-">+/-</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-soot" value="%">%</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-soot" value="/">/</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-black"value="7">7</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-black" value="8">8</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-black" value="9">9</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-soot" value="*">*</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-black" value="4">4</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-black" value="5">5</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-black" value="6">6</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-soot" value="-">-</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3 no-pad">
+						<button type="button" id="one" class="btn btn-block btn-lg btn-black" value="1">1</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-black" value="2">2</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-black" value="3">3</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-soot" value="+">+</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-black" value="0">0</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-black" value=".">.</button>
+					</div>
+					<div class="col-xs-3 no-pad">
+						<button type="button" class="btn btn-block btn-lg btn-soot" value="=">=</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
