@@ -5,10 +5,10 @@
 }
 
 #wrapper {
-	border: 1px solid red;
+	border: 1px solid #000;
 	margin: 1% auto;
 	width: 20em;
-	height: 35em;
+	/*height: 35em;*/
 }
 
 /*.disPlay{
@@ -63,6 +63,26 @@ input[type=text] {
 @media only screen and (max-width: 500px) {
 	#wrapper {
 		width: 100%;
-		height: initial;
+		height: 96.4vh;
+	}
+
+	.fill-display {
+		height: 20vh;
+	}
+
+	.fill-btn {
+		height: 15.2vh;
+	}
+
+	.btn {
+		height: -webkit-fill-available;
+		height: -o-fill-available;
+		height: -moz-fill-available;
 	}
 }
+
+@media only screen and (min-width: 500px) {
+/*	#wrapper {
+		margin-top: 8%;
+	}
+}*/

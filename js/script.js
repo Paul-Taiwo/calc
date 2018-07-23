@@ -9,17 +9,17 @@
 	for (var i = 0; i < btns.length; i++) {
 		btns[i].addEventListener("click", function(e) {
 			e.preventDefault();
-			var x = e.target.getAttribute("value");
+			var btnValue = e.target.getAttribute("value");
 			
-			if (x === "=") {
+			if (btnValue === "=") {
 				answerDisplay.value = eval(display.value);
-			} else if (x === ""){
+			} else if (btnValue === ""){
 				display.value = "";
 				answerDisplay.value = "";
 			} else {
-				display.value += x;
+				display.value += btnValue;
 			}
-			console.log(x);
+
 		});
 	}
 
