@@ -80,3 +80,9 @@ input[type=text] {
 		height: -moz-fill-available;
 	}
 }
+
+@media only screen and (min-width: 500px) {
+/*	#wrapper {
+		margin-top: 8%;
+	}
+}*/
